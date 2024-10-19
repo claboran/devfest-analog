@@ -1,0 +1,57 @@
+{
+  "name": "devfest",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@analogjs/platform:vite",
+      "defaultConfiguration": "production",
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "sourcemap": false,
+          "mode": "production"
+        }
+      },
+      "outputs": [
+        "{options.outputPath}",
+        "{workspaceRoot}/dist/devfest/.nitro",
+        "{workspaceRoot}/dist/devfest/ssr",
+        "{workspaceRoot}/dist/devfest/analog"
+      ],
+      "options": {
+        "main": "devfest/src/main.ts",
+        "configFile": "devfest/vite.config.ts",
+        "outputPath": "dist/devfest/client",
+        "tsConfig": "devfest/tsconfig.app.json"
+      }
+    },
+    "serve": {
+      "executor": "@analogjs/platform:vite-dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "devfest:build",
+        "port": 4200
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "devfest:build:development",
+          "hmr": true
+        },
+        "production": {
+          "buildTarget": "devfest:build:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@analogjs/vitest-angular:test",
+      "outputs": [
+        "{projectRoot}/coverage"
+      ]
+    }
+  },
+  "tags": [],
+  "sourceRoot": "./devfest/src"
+}
