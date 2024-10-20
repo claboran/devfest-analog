@@ -2,7 +2,10 @@
   "name": "@devfest-analog/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve:develop": "nx serve devfest  --port=4300",
+    "build:develop": "nx build devfest --verbose"
+  },
   "private": true,
   "dependencies": {
     "@analogjs/content": "^1.7.0",
@@ -17,9 +20,12 @@
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/platform-server": "^18.0.0",
     "@angular/router": "^18.0.0",
+    "@ngrx/signals": "^18.1.0",
     "@trpc/client": "^10.25.0",
     "@trpc/server": "^10.25.0",
+    "animate.css": "^4.1.1",
     "front-matter": "^4.0.2",
+    "immer": "^10.1.1",
     "isomorphic-fetch": "^3.0.0",
     "marked": "^5.0.2",
     "marked-gfm-heading-id": "^3.1.0",
@@ -44,6 +50,7 @@
     "@nx/vite": "^19.1.0",
     "@nx/workspace": "20.0.3",
     "autoprefixer": "^10.4.0",
+    "daisyui": "^4.12.13",
     "jsdom": "^22.1.0",
     "nx": "20.0.3",
     "postcss": "^8.4.5",

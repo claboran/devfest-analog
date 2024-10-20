@@ -3,8 +3,8 @@ import { AsyncPipe, DatePipe, NgFor, NgIf } from '@angular/common';
 import { FormsModule, NgForm } from '@angular/forms';
 import { shareReplay, Subject, switchMap, take } from 'rxjs';
 import { waitFor } from '@analogjs/trpc';
-import { injectTrpcClient } from '../../trpc-client';
-import { Note } from '../../note';
+import { injectTrpcClient } from '../../../trpc-client';
+import { Note } from '../../../note';
 
 @Component({
   selector: 'devfest-analog-welcome',

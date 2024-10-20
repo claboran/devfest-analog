@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import HomeLayoutComponent from "./pages/home.page";
 
 @Component({
   selector: 'devfest-root',
   standalone: true,
-  imports: [RouterOutlet],
-  template: ` <router-outlet></router-outlet> `,
+  imports: [HomeLayoutComponent],
+  template: `
+    <devfest-home-layout />
+  `,
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent {}
