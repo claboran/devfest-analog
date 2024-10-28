@@ -1,18 +1,16 @@
 import { ChangeDetectionStrategy, Component, effect, input } from '@angular/core';
 import { TResource } from "../../../shared/resource.model";
-import { JsonPipe } from "@angular/common";
 import { patchState, signalState } from "@ngrx/signals";
 import { resourceStateReducer, TResourceStateModel } from "../../state/resource-state.model";
 import { ResourceListItemComponent } from "./resource-list-item.component";
-import { RouterLink } from "@angular/router";
+import { CommonModule } from "@angular/common";
 
 @Component({
   selector: 'devfest-resource-container',
   standalone: true,
   imports: [
-    JsonPipe,
+    CommonModule,
     ResourceListItemComponent,
-    RouterLink
   ],
   template: `
     <div class="w-full py-4 text-white flex flex-col">
