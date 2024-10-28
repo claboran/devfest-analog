@@ -16,7 +16,9 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
             <img ngSrc="assets/analog-logo.svg" alt="DevFest" [style.position]="'relative'" fill >
           </div>
           <div class="w-5/6 text-center">
-            <div class="text-2xl md:text-4xl lg:text-8xl font-bold text-white w-full">devfest analog</div>
+            <div class="text-2xl md:text-4xl lg:text-8xl font-bold text-white w-full">
+              devfest <span class="uppercase text-primary">analog</span>
+            </div>
           </div>
         </div>
       </div>

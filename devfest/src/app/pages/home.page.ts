@@ -16,7 +16,7 @@ import { HeaderComponent } from "../components/header/header.component";
       <div class="sticky-header w-full">
             <dev-fest-header />
       </div>
-      <div class="container flex-1 mb-3 lg:mb-5 mx-auto animate__animated animate__fadeInRightBig">
+      <div class="container flex-1 mb-3 lg:mb-5 mx-auto animate__animated animate__backInRight">
         <router-outlet></router-outlet>
       </div>
       <devfest-footer />
