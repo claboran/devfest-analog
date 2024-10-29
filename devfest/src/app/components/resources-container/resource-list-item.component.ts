@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, HostBinding, input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TResource } from "../../../shared/resource.model";
 
@@ -21,13 +21,11 @@ import { TResource } from "../../../shared/resource.model";
       </div>
     </div>
   `,
-  styles: [
-    `:host {
-      @apply w-full;
-    }`,
-  ],
+  styles: [],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ResourceListItemComponent {
+  @HostBinding('class')
+  readonly classes = ['w-full'];
   item = input.required<TResource>();
 }

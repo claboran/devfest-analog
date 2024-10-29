@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from "@angular/common";
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'devfest-footer',
@@ -7,6 +8,7 @@ import { CommonModule, NgOptimizedImage } from "@angular/common";
   imports: [
     CommonModule,
     NgOptimizedImage,
+    RouterLink,
   ],
   template: `
     <footer class="footer bg-neutral text-neutral-content justify-around">
@@ -26,8 +28,8 @@ import { CommonModule, NgOptimizedImage } from "@angular/common";
       </div>
       <div class="p-5 xl:p-10">
         <span class="footer-title">Info</span>
-        <a href="#" class="link link-hover">Gregor Speck</a>
-        <a href="#" class="link link-hover">Christian Laboranowitsch</a>
+        <a routerLink="/profile/gregor-speck-profile" class="link link-hover">Gregor Speck</a>
+        <a routerLink="/profile/christian-laboranowitsch-profile" class="link link-hover">Christian Laboranowitsch</a>
         <a routerLink="#" class="link link-hover">BridgingIT</a>
       </div>
     </footer>
