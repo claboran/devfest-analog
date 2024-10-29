@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, effect, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, effect, HostBinding, input } from '@angular/core';
 import { TResource } from "../../../shared/resource.model";
 import { patchState, signalState } from "@ngrx/signals";
 import { resourceStateReducer, TResourceStateModel } from "../../state/resource-state.model";
@@ -21,15 +21,13 @@ import { CommonModule } from "@angular/common";
       }
     </div>
   `,
-  styles: [
-    `:host {
-      @apply w-full;
-    }`,
-  ],
+  styles: [],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ResourceContainerComponent {
 
+  @HostBinding('class')
+  readonly classes = ['w-full'];
   readonly resourceState = signalState<TResourceStateModel>({
     resources: [],
   });
