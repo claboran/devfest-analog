@@ -1,0 +1,16 @@
+.presentation-title .title-area h1 {
+  @apply text-3xl mb-1;
+}
+
+.presentation-title .title-area p {
+  @apply text-sm;
+}
+
+.presentation-title .title-area p + p {
+  @apply flex-1 flex flex-col justify-end;
+}
+
+.presentation-title .image img {
+  @apply image-full;
+}
+
