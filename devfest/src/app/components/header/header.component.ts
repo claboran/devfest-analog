@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, HostBinding } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 
 @Component({
@@ -24,11 +24,10 @@ import { CommonModule, NgOptimizedImage } from '@angular/common';
       </div>
     </div>
   `,
-  styles: [
-    `:host {
-      @apply w-full;
-    }`,
-  ],
+  styles: [],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  @HostBinding('class')
+  readonly classes = ['w-full'];
+}

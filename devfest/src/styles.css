@@ -7,3 +7,35 @@ html, body {
 display: block;
 height: 100%;
 }
+
+.markdown-wrapper {
+  padding-top: 4rem;
+
+  h1 {
+    @apply text-3xl pb-3 pl-3 md:text-4xl md:pb-4;
+  }
+
+  h2 {
+    @apply text-2xl pb-1.5 pl-3 md:text-3xl md:pb-2;
+  }
+
+  h3 {
+    @apply pb-0.5 md:text-2xl md:pl-0 md:pb-1;
+  }
+
+  hr {
+    @apply my-6 mx-2 md:my-8 md:mx-0;
+  }
+
+  blockquote {
+    @apply bg-gray-700 border-l-4 border-indigo-900 p-4 my-4 rounded-xl;
+  }
+
+  li {
+    @apply list-disc ml-4;
+  }
+
+  a {
+    @apply text-blue-600 underline hover:text-gray-400;
+  }
+}

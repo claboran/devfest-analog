@@ -9,6 +9,7 @@ import { provideFileRouter, requestContextInterceptor } from '@analogjs/router';
 
 import { provideTrpcClient } from '../trpc-client';
 import { withComponentInputBinding } from "@angular/router";
+import { provideContent, withMarkdownRenderer } from "@analogjs/content";
 
 
 export const appConfig: ApplicationConfig = {
@@ -23,5 +24,6 @@ export const appConfig: ApplicationConfig = {
       withInterceptors([requestContextInterceptor])
     ),
     provideTrpcClient(),
+    provideContent(withMarkdownRenderer()),
   ],
 };
