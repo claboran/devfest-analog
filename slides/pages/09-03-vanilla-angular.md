@@ -16,7 +16,7 @@ Single File Components
 
 <template v-slot:right>
 
-<div class="flex h-full justify-center items-center scale-80">
+<div class="flex h-full justify-center items-center -mt-2 scale-80">
 
 ```typescript
 

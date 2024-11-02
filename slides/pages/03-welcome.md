@@ -14,7 +14,7 @@ profiles:
     github: MrBacony
     image: /layouts/images/profiles/gspeck.jpg
     keys:
-      - Analog und Astro
-      - Coole Socke
-      - Architekt
+      - Angular Enthusiast
+      - CSS und Styling
+      - im Frontend daheim
 ---

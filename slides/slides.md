@@ -85,6 +85,33 @@ src: './pages/09-04-analog-angular.md'
 ---
 
 ---
+src: './pages/09-05-analog-angular.md'
+---
+---
+src: './pages/10-01-title-file-routing.md'
+---
+
+---
+src: './pages/10-02-file-based-routing.md'
+---
+
+---
+src: './pages/10-03-verschiedene-routen.md'
+---
+
+---
+src: './pages/10-04-markdown-content.md'
+---
+
+---
+src: './pages/11-01-title-bff.md'
+---
+
+---
+src: './pages/11-02-was-ist-bff.md'
+---
+
+---
 src: './pages/99-credits.md'
 ---
 

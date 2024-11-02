@@ -1,27 +1,36 @@
 <script setup lang="ts">
 import {computed} from "vue";
 import {handleBackground} from "../layoutHelper";
+import Footer from "./components/Footer.vue";
 
 const props = defineProps({
   background: {
     type: String,
+  },
+  inverted: {
+    type: String,
+    default: 'false'
   }
 })
 
-const style = computed(() => handleBackground(props.background))
+const style = computed(() => handleBackground(props.background));
 
+const classLeft = computed(() => props.inverted === 'true' ? 'bg-accent-4 text-white' : '');
+const classRight = computed(() => props.inverted === 'true' ? '' : 'bg-accent-4 text-white');
 </script>
 <template>
-  <div class="slidev-layout page-1-2 flex">
-    <div class="w-2/3 flex flex-col" :style="style">
+  <div class="slidev-layout page-1-2 flex flex-col">
+    <div class="flex-1 flex">
+    <div class="w-2/3 flex flex-col" :style="style" :class="classLeft">
       <slot name="left"/>
     </div>
 
-    <div class="w-1/3 px-6 pt-8 bg-accent-4 text-white flex flex-col">
+    <div class="w-1/3 px-6 pt-8 flex flex-col" :class="classRight">
     <slot />
     </div>
+    </div>
 
-
+    <Footer/>
   </div>
 </template>
 

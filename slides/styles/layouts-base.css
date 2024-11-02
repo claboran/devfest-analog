@@ -3,6 +3,11 @@
     @apply mt-0 font-bold text-sm;
   }
 
+  p > code {
+    color: #425563;
+    --slidev-code-background: #d0dde8;
+  }
+
   --slidev-code-background: #425563;
 }
 
