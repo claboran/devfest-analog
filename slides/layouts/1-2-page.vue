@@ -25,7 +25,7 @@ const classLeft = computed(() => props.inverted === 'true' ? '' : 'bg-accent-4 t
       <slot />
       </div>
 
-      <div class="w-2/3 flex flex-col" :style="style" :class="classRight">
+      <div class="right w-2/3 flex flex-col" :style="style" :class="classRight">
         <slot name="right"/>
       </div>
     </div>
@@ -46,6 +46,10 @@ const classLeft = computed(() => props.inverted === 'true' ? '' : 'bg-accent-4 t
 
   li {
     @apply leading-6 mt-8 list-none ml-0;
+  }
+
+  .right p {
+   @apply leading-6 my-2;
   }
 }
 </style>

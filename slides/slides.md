@@ -69,6 +69,14 @@ src: './pages/08-05-ssg.md'
 ---
 
 ---
+src: './pages/08-06-analogjs-ssr.md'
+---
+
+---
+src: './pages/08-07-analogjs-ssg.md'
+---
+
+---
 src: './pages/09-01-title-analog-sfc.md'
 ---
 
