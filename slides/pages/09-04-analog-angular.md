@@ -1,5 +1,5 @@
 ---
-layout: 2-1-page
+layout: 1-2-page
 
 
 ---
@@ -15,7 +15,7 @@ Single File Components
 
 
 
-<template v-slot:left>
+<template v-slot:right>
 
 <div class="flex h-full justify-center items-center scale-80">
 

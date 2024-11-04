@@ -11,7 +11,7 @@ Routentypen
 
 <template v-slot:right>
 
-<div class="p-4 flex flex-col">
+<div class="px-4 pt-8 flex flex-col">
 
 ### Verschiedene Routentypen
 

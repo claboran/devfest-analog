@@ -33,19 +33,19 @@ src/
 │   ├── pages/
 │   │   ├── (home).page.ts             // Route: '/'
 │   │   ├── about.page.ts              // Route: '/about'
-│   │   ├── (auth).page.ts              // Route: '/about'
+│   │   ├── (auth).page.ts             // Layout für '/login' und '/signup'
 │   │   ├── (auth)/
 │   │   │   ├── login.page.ts          // Route: '/login'
 │   │   │   └── signup.page.ts         // Route: '/signup'
 │   │   ├── users/
 │   │   │   └── [userId].page.ts       // Route: '/users/[userId]'
 │   │   ├── groups.[groupId].page.ts   // Route: '/groups/[groupId]'
-│   │   ├── products.page.ts           // Layout for '/products'
+│   │   ├── products.page.ts           // Layout für '/products'
 │   │   ├── products/
 │   │   │   ├── (product-list).page.ts // Route: '/products'
 │   │   │   └── [productId].page.ts    // Route: '/products/[productId]'
 │   │   │
-│   │   ├── [...not-found].md          // Route: '/not-found'
+│   │   ├── [...not-found].md          // Route: '/**' ->'/not-found'
 
 
 ```

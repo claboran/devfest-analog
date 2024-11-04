@@ -104,6 +104,10 @@ src: './pages/10-04-markdown-content.md'
 ---
 
 ---
+src: './pages/10-05-metadata.md'
+---
+
+---
 src: './pages/11-01-title-bff.md'
 ---
 
