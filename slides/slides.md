@@ -108,11 +108,27 @@ src: './pages/10-03-verschiedene-routen.md'
 ---
 
 ---
-src: './pages/10-04-markdown-content.md'
+src: './pages/10-04-metadata.md'
 ---
 
 ---
-src: './pages/10-05-metadata.md'
+src: './pages/10-05-markdown-content.md'
+---
+
+---
+src: './pages/10-06-syntax-highlighting.md'
+---
+
+---
+src: './pages/10-07-mermaid.md'
+---
+
+---
+src: './pages/10-08-content-route.md'
+---
+
+---
+src: './pages/10-09-content-route.md'
 ---
 
 ---
