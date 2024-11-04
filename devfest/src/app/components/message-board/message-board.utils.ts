@@ -10,7 +10,7 @@ export const messageBoardPatchFactoryFn = (
     author: string,
     message: string,
     title: string,
-  }[]>
+  }[]>,
 ) => () => {
   patchState(
     messageBoardState, (state: TMessageBoardStateModel) =>
