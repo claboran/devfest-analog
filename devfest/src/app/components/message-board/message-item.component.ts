@@ -6,13 +6,18 @@ import { TMessage } from "../../../shared/message-board.model";
   standalone: true,
   imports: [],
   template: `
-    <div class="w-full flex flex-col py-3 px-1.5 text-2xl border-2 rounded-xl border-gray-300">
-      <div class="flex items-center justify-around py-1">
-        <div>
+    <div class="w-full flex flex-col py-3 px-1.5 rounded-xl  bg-base-100 shadow-xl">
+      <div class="flex items-center justify-between text-2xl py-1 px-3">
+        <div class="w-8/12 underline">
           {{ messageItem().title }}
         </div>
-        <div>
-          {{ messageItem().author }}
+        <div class="w-4/12 flex justify-center items-center">
+          <div class="w-1/12 text-white p-2">
+            <img class="rounded-full" src="assets/user.svg" alt="user" width="100%" height="auto">
+          </div>
+          <div class="w-11/12 pl-4">
+            {{ messageItem().author }}
+          </div>
         </div>
       </div>
       <div class="w-full divider px-3"></div>

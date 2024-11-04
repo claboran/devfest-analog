@@ -20,7 +20,7 @@ import { tap } from "rxjs";
       <div class="w-full lg:w-1/2 bg-base-100 shadow-xl p-8">
         <div class="text-2xl uppercase">Send Message</div>
         <div class="divider"></div>
-        <form [formGroup]="fg" novalidate>
+        <form [formGroup]="fg" novalidate autocomplete="off">
           <div class="form-control mb-4 grid grid-cols-1 lg:grid-cols-2 gap-4">
             <input id="author"
                    formControlName="author"
@@ -42,7 +42,6 @@ import { tap } from "rxjs";
             </textarea>
           </div>
         </form>
-        {{ fg.valid }} {{ fg.invalid }}
         <div class="flex justify-end mt-3">
           <button
             class="btn btn-primary uppercase"
@@ -88,8 +87,8 @@ export class MessageBoardFormComponent {
         title: this.#fg.controls.title.value,
         message: this.#fg.controls.message.value,
       }).pipe(
-        tap(() => this.#router.navigate(['/message-board'])),
         takeUntilDestroyed(this.#destroyRef),
+        tap(() => this.#router.navigate(['/message-board'])),
       ).subscribe();
     }
   }
