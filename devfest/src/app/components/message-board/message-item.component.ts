@@ -33,6 +33,5 @@ export class MessageItemComponent {
 
   @HostBinding('class')
   readonly classes = ['w-full'];
-
   messageItem = input.required<TMessage>();
 }

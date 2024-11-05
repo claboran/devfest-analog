@@ -59,21 +59,15 @@ import { tap } from "rxjs";
 export class MessageBoardFormComponent {
 
   @HostBinding('class')
-
   readonly classes = ['w-full'];
-
   readonly #trpc = injectTrpcClient();
-
   #fb = inject(NonNullableFormBuilder);
-
   #router = inject(Router);
-
   #fg = this.#fb.group({
     author: this.#fb.control('', [Validators.required, Validators.minLength(3)]),
     title: this.#fb.control('', [Validators.required, Validators.minLength(3)]),
     message: this.#fb.control('', [Validators.required, Validators.minLength(5)])
   });
-
   #destroyRef = inject(DestroyRef);
 
   get fg() {
