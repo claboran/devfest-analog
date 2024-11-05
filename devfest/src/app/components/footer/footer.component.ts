@@ -20,11 +20,9 @@ import { RouterLink } from "@angular/router";
              fill>
       </div>
       <div class="p-5 xl:p-10">
-        <span class="footer-title">Code Examples</span>
-        <a href="#" class="link link-hover">Code Example 1</a>
-        <a href="#" class="link link-hover">Code Example 2</a>
-        <a href="#" class="link link-hover">Code Example 3</a>
-        <a href="#" class="link link-hover">Code Example 4</a>
+        <span class="footer-title">Page Examples</span>
+        <a routerLink="/message-board" class="link link-hover">Message Board</a>
+        <a routerLink="/message-board/add" class="link link-hover">Add a Message</a>
       </div>
       <div class="p-5 xl:p-10">
         <span class="footer-title">Info</span>

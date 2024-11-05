@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "serve:develop": "nx serve devfest  --port=4300",
-    "build:develop": "nx build devfest --verbose"
+    "build:develop": "nx build devfest"
   },
   "private": true,
   "dependencies": {
