@@ -1,5 +1,4 @@
 import { defineShikiSetup } from '@slidev/types'
-import darcula from './darkula.json';
 
 export default defineShikiSetup(() => {
   return {
@@ -8,7 +7,7 @@ export default defineShikiSetup(() => {
       light: 'aurora-x'
     },
     langs: [
-      "typescript", "angular-html", "angular-ts"
+      "typescript", "angular-html", "angular-ts", "markdown"
       ]
   }
 });

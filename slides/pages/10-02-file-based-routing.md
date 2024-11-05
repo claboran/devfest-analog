@@ -12,7 +12,7 @@ In a Nutshell
 <template v-slot:right>
 
 
-<div class="p-8 flex flex-col gap-8">
+<div class="p-8 pb-0 flex flex-col gap-4">
 
 <div class="flex flex-col">
   
