@@ -144,6 +144,22 @@ src: './pages/11-03-was-ist-bff-2.md'
 ---
 
 ---
+src: './pages/11-04-bff-in-analog.md'
+---
+
+---
+src: './pages/11-05-bff-server-side-data-fetching.md'
+---
+
+---
+src: './pages/11-06-bff-trpc-1.md'
+---
+
+---
+src: './pages/11-07-bff-trpc-2.md'
+---
+
+---
 src: './pages/99-credits.md'
 ---
 
