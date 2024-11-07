@@ -20,7 +20,7 @@ export const routeMeta: RouteMeta = {
     },
     {
       property: 'og:description',
-      content: 'Some catchy description',
+      content: 'Analog Demo App for Devfest',
     },
     {
       property: 'og:image',
