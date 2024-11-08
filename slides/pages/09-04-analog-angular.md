@@ -25,7 +25,7 @@ Single File Components
   import { RouterOutlet } from '@angular/router';
   import CoolButton from './cool-button.analog';
   import CoolLabel from './label.analog' with { analog: 'imports' };
-  import { IconComponent} from './icon.component.ts' with { analog: 'imports' };
+  import { IconComponent } from './icon.component.ts' with { analog: 'imports' };
   import { AuthStore } from '../shared-data-access-auth/auth.store';
   
   defineMetadata({

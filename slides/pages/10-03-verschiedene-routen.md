@@ -10,7 +10,7 @@ inverted: "false"
 Routentypen
 
 Basisroute:<br><br>
-`/src/app/pages`
+`/src/app/pages/`
 
 <template v-slot:right>
 

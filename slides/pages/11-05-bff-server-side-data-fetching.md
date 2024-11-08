@@ -8,7 +8,7 @@ Server-Side Data Fetching
 
 * Fetch von Daten auf dem Server
 * Rendering vor der Auslieferung an den Client
-* 
+* Bereitstellung der Daten für den Client nach der Hydration
 
 </div>
 
@@ -17,7 +17,9 @@ Server-Side Data Fetching
 
 <div class="p-8">
 
-# Server-Side Data Fetching
+### Server-Side Data Fetching
+
+<div class="mt-4"></div>
 
 ```typescript
 // src/app/pages/(home)/index.server.ts
