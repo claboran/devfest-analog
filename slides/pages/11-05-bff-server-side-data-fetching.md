@@ -8,7 +8,7 @@ Server-Side Data Fetching
 
 * Fetch von Daten auf dem Server
 * Rendering vor der Auslieferung an den Client
-* 
+* Bereitstellung der Daten für den Client nach der Hydration
 
 </div>
 
