@@ -44,8 +44,16 @@ const classLeft = computed(() => props.inverted === 'true' ? '' : 'bg-accent-4 t
     @apply pt-0  mt-0 text-sm;
   }
 
+  .hide-list {
+    @apply list-none  ml-0;
+  }
+
+  ul {
+    @apply flex flex-col  mt-8 gap-6;
+  }
+
   li {
-    @apply leading-6 mt-8 list-none ml-0;
+    @apply leading-6 text-sm;
   }
 
   .right p {

@@ -1,8 +1,8 @@
 ---
 layout: 6-features
-background: '/layouts/images/bg_6.png'
+background: '/layouts/images/bg_4.png'
 dark: true,
-verticalPosition: top
+verticalPosition: bottom
 ---
 
 # Features

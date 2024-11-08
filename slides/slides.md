@@ -15,7 +15,6 @@ footer: Analog - Angular hat jetzt (auch) sein Metaframework!
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 # take snapshot for each slide in the overview
@@ -141,6 +140,22 @@ src: './pages/11-02-was-ist-bff.md'
 
 ---
 src: './pages/11-03-was-ist-bff-2.md'
+---
+
+---
+src: './pages/11-04-bff-in-analog.md'
+---
+
+---
+src: './pages/11-05-bff-server-side-data-fetching.md'
+---
+
+---
+src: './pages/11-06-bff-trpc-1.md'
+---
+
+---
+src: './pages/11-07-bff-trpc-2.md'
 ---
 
 ---

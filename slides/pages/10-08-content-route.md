@@ -9,7 +9,7 @@ Markdown und anderer deklarativer Inhalt.
 * <span class="text-sm">Markdown Route</span>
 * <span class="text-sm">Syntax Highlighting</span>
 * <span class="text-sm">Mermaid Support</span>
-* <span class="font-bold">Content Route</span>
+* <span class="font-bold text-xl">Content Route</span>
 
 <template v-slot:right>
 

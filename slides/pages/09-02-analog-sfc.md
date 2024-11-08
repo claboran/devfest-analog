@@ -1,6 +1,7 @@
 ---
 layout: 3-fakten
 redCircles: 'false'
+background: '/layouts/images/bg_4.png'
 ---
 
 # Analog SFC (Single File Components)

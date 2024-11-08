@@ -8,15 +8,16 @@ const props = defineProps({
   background: {
     type: String,
   },
-  verticalPosition: {
+  position: {
     type: String,
+    default: 'center'
   },
   dark: {
     type: String,
   }
 })
 
-const style = computed(() => handleBackground(props.background, props.verticalPosition))
+const style = computed(() => handleBackground(props.background, props.position))
 
 const textClass = computed(() => props.dark ? 'text-white' : 'text-primary-dark-2');
 
@@ -24,9 +25,9 @@ const textClass = computed(() => props.dark ? 'text-white' : 'text-primary-dark-
 </script>
 
 <template>
-  <div class="slidev-layout flex flex-col z-0 cover" :style="style">
-    <div class="flex-1 flex flex-col " v-bind:class="textClass" >
-      <div class="flex flex-1 flex-col px-6 py-8">
+  <div class="slidev-layout flex flex-col z-0 cover">
+    <div class="flex-1 flex flex-col " v-bind:class="textClass">
+      <div class="flex flex-1 flex-col px-6 py-8" :style="style">
         <slot/>
       </div>
 

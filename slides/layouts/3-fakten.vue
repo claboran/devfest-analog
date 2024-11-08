@@ -25,17 +25,21 @@ const props = defineProps({
   },
   background: {
     type: String,
+  },
+  position: {
+    type: String,
+    default: 'center'
   }
 })
 
 const circles = computed(() => props.redCircles === 'true');
 
-const style = computed(() => handleBackground(props.background))
+const style = computed(() => handleBackground(props.background, props.position))
 </script>
 
 <template>
-  <div class="slidev-layout three-facts flex flex-col z-0 cover" :style="style">
-    <div class="text-primary-dark-2 flex flex-1 flex-col px-6 py-8">
+  <div class="slidev-layout three-facts flex flex-col z-0 cover" >
+    <div class="flex flex-1 flex-col px-6 py-8" :style="style">
       <slot></slot>
     </div>
     <div class="flex text-white">
