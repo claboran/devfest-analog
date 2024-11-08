@@ -20,3 +20,10 @@ layout: 1-2-page
 
 </div>
 </template>
+
+
+<!-- 
+
+Entwickelt von Brandon Roberts, der AnalogJS Creator, ngrx Core Maintainer
+
+-->

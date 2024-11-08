@@ -10,7 +10,7 @@ Einsatz in Analog
 <div class="p-8 flex flex-col ">
 
 ### Static Site Generation
-Einfache Konfiguration in der `vite.config.ts`. Alle Statischen Routen werden unter `prerender` angegeben.
+Einfache Konfiguration in der `vite.config.ts`. Alle statischen Routen werden unter `prerender` angegeben.
 
 ```typescript
 import { defineConfig } from 'vite';

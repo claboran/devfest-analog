@@ -7,8 +7,8 @@ profiles:
     image: /layouts/images/profiles/claboranowitsch.jpg
     keys:
       - Analog und Astro
-      - Coole Socke
-      - Architekt
+      - Full-Stack Architekt
+      - React und Angular
   - name: Gregor Speck
     position: Frontend Architekt bei der bridgingIT
     github: MrBacony

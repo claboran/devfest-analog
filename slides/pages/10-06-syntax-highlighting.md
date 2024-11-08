@@ -7,7 +7,7 @@ layout: 1-2-page
 Markdown und anderer deklarativer Inhalt.
 
 * <span class="text-sm">Markdown Route</span>
-* <span class="font-bold">Syntax Highlighting</span>
+* <span class="font-bold text-xl">Syntax Highlighting</span>
 * <span class="text-sm">Mermaid Support</span>
 * <span class="text-sm">Content Route</span>
 

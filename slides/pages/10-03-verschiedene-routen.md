@@ -9,6 +9,9 @@ inverted: "false"
 
 Routentypen
 
+Basisroute:<br><br>
+`/src/app/pages`
+
 <template v-slot:right>
 
 <div class="px-4 pt-8 flex flex-col">
