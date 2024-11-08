@@ -19,9 +19,11 @@ tRPC Building Blocks
 
 <template v-slot:right>
 
-<div class="p-8">
+<div class="p-8 pb-0">
 
-# tRPC
+### Beispiel: Message Board
+
+<div class="mt-4"></div>
 
 ```typescript
 

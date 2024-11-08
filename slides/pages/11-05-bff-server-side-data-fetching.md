@@ -17,7 +17,9 @@ Server-Side Data Fetching
 
 <div class="p-8">
 
-# Server-Side Data Fetching
+### Server-Side Data Fetching
+
+<div class="mt-4"></div>
 
 ```typescript
 // src/app/pages/(home)/index.server.ts

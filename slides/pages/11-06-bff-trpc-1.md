@@ -13,10 +13,14 @@ Warum tRPC?
 
 <div class="p-8">
 
-# tRPC
+### Warum tRPC?
+
+<div class="text-sm my-4">
 
 `tRPC` steht für `TypeScript Remote Procedure Call`. Es ist ein modernes Framework, 
 welches es erlaubt, API-Interaktionen als einfache Funktionsaufrufe zu definieren.
+
+</div>
 
 * End-to-End Typsicherheit. Typdefinition & Validierung mittels [Zod](https://zod.dev/).
 * Performance. tRPC ist schlank und effizient.
