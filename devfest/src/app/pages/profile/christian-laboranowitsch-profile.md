@@ -8,13 +8,14 @@ title: Profile Christian Laboranowitsch
 
 <div class="divider"></div>
 
-Full-Stack Developer
+## Full-Stack Developer, Freelance Developer
 
-## Headline 1
+<div class="divider"></div>
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Short Bio
 
-## Headline 2
+> Christian unterstützt Kunden als freiberuflicher Softwareentwickler bei der Umsetzung komplexer Softwaresysteme. Auf der Backend-Seite arbeitet er mit Java/Kotlin und Spring, .NET sowie NodeJS/NestJS. In den letzten Jahren hat er sich zunehmend auf moderne Webframeworks konzentriert und setzt dabei auf Angular und React. Mit besonderem Interesse verfolgt er den Trend hin zu sogenannten Meta-Frameworks wie NextJS, Astro und auch AnalogJS.
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Contact
 
+[GitHub](https://github/claboran)
