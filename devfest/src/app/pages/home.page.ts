@@ -2,7 +2,32 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterOutlet } from "@angular/router";
 import { FooterComponent } from "../components/footer/footer.component";
 import { HeaderComponent } from "../components/header/header.component";
+import { RouteMeta } from "@analogjs/router";
 
+export const routeMeta: RouteMeta = {
+  meta: [
+    {
+      name: 'description',
+      content: 'Analog Devfest Demo',
+    },
+    {
+      name: 'author',
+      content: 'Gregor Speck, Christian Laboranowitsch',
+    },
+    {
+      property: 'og:title',
+      content: 'Analog Devfest Demo',
+    },
+    {
+      property: 'og:description',
+      content: 'Some catchy description',
+    },
+    {
+      property: 'og:image',
+      content: 'https://devfest-analog.vercel.app/assets/analog-logo.png',
+    },
+  ],
+};
 @Component({
   selector: 'devfest-home-layout',
   standalone: true,

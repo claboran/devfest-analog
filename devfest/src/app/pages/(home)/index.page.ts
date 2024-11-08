@@ -1,8 +1,33 @@
 import { ChangeDetectionStrategy, Component, HostBinding } from '@angular/core';
 import { toSignal } from "@angular/core/rxjs-interop";
-import { injectLoad } from "@analogjs/router";
+import { injectLoad, RouteMeta } from "@analogjs/router";
 import { load } from "./index.server";
 import { ResourceContainerComponent } from "../../components/resources-container/resource-container.component";
+
+export const routeMeta: RouteMeta = {
+  meta: [
+    {
+      name: 'description',
+      content: 'Analog Devfest Demo',
+    },
+    {
+      name: 'author',
+      content: 'Gregor Speck, Christian Laboranowitsch',
+    },
+    {
+      property: 'og:title',
+      content: 'Analog Devfest Demo',
+    },
+    {
+      property: 'og:description',
+      content: 'Analog Demo App for Devfest',
+    },
+    {
+      property: 'og:image',
+      content: 'https://devfest-analog.vercel.app/assets/analog-logo.png',
+    },
+  ],
+};
 
 @Component({
   selector: 'devfest-home-page',
