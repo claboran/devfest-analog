@@ -8,12 +8,15 @@ title: Profile Gregor Speck
 
 <div class="divider"></div>
 
-Full-Stack Developer
+## Full-Stack Developer, Frontend Enthusiast
 
-## Headline 1
+<div class="divider"></div>
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Short Bio
 
-## Headline 2
+> Gregor Speck ist Frontend Architekt und Fullstack Entwickler bei der Bridging IT. Er beschäftigt sich intensiv mit modernen Webtechnologien, verschiedenen Frameworks und modernem CSS. Seine Leidenschaft für innovative und umfassende Lösungen im Webbereich verbindet er mit seinem Fachwissen, um anspruchsvolle Projekte zu realisieren. Dabei legt er seinen Fokus auf Angular, NX Devtools und Storybook.
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Contact
+
+[GitHub](https://github.com/MrBacony)
+
