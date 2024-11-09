@@ -1,4 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "nx build devfest"
+  "buildCommand": "nx build devfest",
+  "github": {
+    "silent": true
+  }
 }
