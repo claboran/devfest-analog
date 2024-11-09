@@ -16,7 +16,7 @@ import { tap } from "rxjs";
   template: `
     <div class="w-full pt-4 flex flex-col">
       <div class="flex justify-end w-full items-center py-3">
-        <button class="btn btn-primary w-3/12 lg:w-1/12" (click)="onClick()">
+        <button class="btn btn-primary w-3/12 md:w-2/12 lg:w-1/12" (click)="onClick()">
           <img src="assets/arrows-rotate.svg" alt="Refresh" width="40%" height="auto"/>
         </button>
       </div>
