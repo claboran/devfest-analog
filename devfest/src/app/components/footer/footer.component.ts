@@ -28,6 +28,7 @@ import { RouterLink } from "@angular/router";
         <span class="footer-title">Info</span>
         <a routerLink="/profile/gregor-speck-profile" class="link link-hover">Gregor Speck</a>
         <a routerLink="/profile/christian-laboranowitsch-profile" class="link link-hover">Christian Laboranowitsch</a>
+        <a href="https://github.com/claboran/devfest-analog" class="link link-hover">Demo GitHub Code</a>
         <a href="https://www.bridging-it.de/index.html" class="link link-hover">BridgingIT</a>
       </div>
     </footer>

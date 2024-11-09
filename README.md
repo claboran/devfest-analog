@@ -1,13 +1,24 @@
 # DevfestAnalog
 
-This is the repository for the devfest Karlsruhe 2024 example code.
+Demo repository Analog Application for the Google DevFest Karlsruhe 2024
 
-## Todos
+## Developers
+
+Gregor Speck, Christian Laboranowitsch
+
+## Showcase
 
 - [x] Initial project setup with nx, Tailwind, DaisyUI, PostCSS
-- [x] Routing, Header and Footer
-- [x] Content pages for Info (bios, BridgingIT)
-- [x] Landing page in list style with cards pointing to AnalogJS Routes
-- [x] Small trpc example with a simple API and BFF
-- [ ] Finalize Content Pages
-- [ ] Make Image Directive wor everywhere
+- [x] Routing, Layout Pages, Server Side Data Fetching 
+- [x] Content pages
+- [x] tRPC Example with a simple API and BFF
+
+## Getting Started
+
+Prerequisites: Node 20.x, npm
+
+```bash
+cd devfest-analog
+npm i
+npm run serve:develop
+```

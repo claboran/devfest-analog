@@ -8,14 +8,14 @@ import { TMessage } from "../../../shared/message-board.model";
   template: `
     <div class="w-full flex flex-col py-3 px-1.5 rounded-xl  bg-base-100 shadow-xl">
       <div class="flex items-center justify-between text-2xl py-1 px-3">
-        <div class="w-8/12 underline">
+        <div class="w-8/12 underline text-sm lg:text-lg">
           {{ messageItem().title }}
         </div>
         <div class="w-4/12 flex justify-center items-center">
-          <div class="w-1/12 text-white p-2">
+          <div class="w-4/12 lg:w-1/12 text-white p-2">
             <img class="rounded-full" src="assets/user.svg" alt="user" width="100%" height="auto">
           </div>
-          <div class="w-11/12 pl-4">
+          <div class="w-8/12 lg:w-11/12 pl-4 text-sm lg:text-lg">
             {{ messageItem().author }}
           </div>
         </div>
